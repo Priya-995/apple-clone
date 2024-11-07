@@ -38,11 +38,11 @@ nav a{
     
 }
 #nav-btm{
-    background-color: rgba(63, 61, 61, 0.446);
-    color:white;
+    background-color: white;
+    color:black;
     opacity:.8;
     width: 100%; 
-    height: 2em;
+    height: 4em;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -68,16 +68,50 @@ nav a{
     padding-right: 25px;
     
 }
-.hero img{
-    height: 300px;
-    width: 600px;
-    
-    margin: 0px auto;
-    margin-top: 5em;
-    display: flex;
-    justify-content:center ;
+.mid{
+    color:white;
 }
-.img-apple img{
-    width:100%;
-    height: 600px; 
+.hdng{
+    color:white;
+}
+/**Footer-section **/
+footer{
+    margin-left:200px;
+    margin-right:200px;
+}
+footer .f-apple{
+    color:white;
+    margin-bottom: 10px;;
+}
+footer h3{
+    color:aliceblue;
+}
+.f-btns .btn{
+    color:white;
+    
+}
+.btn:hover{
+    color:black;
+}
+.para{
+    color:white;
+    opacity:.5;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+.lists  {
+   display: flex;
+}
+.lists li{
+    list-style: none;
+    color:white;
+    opacity:.7;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.f-last{
+    color:white;
+    opacity:.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
